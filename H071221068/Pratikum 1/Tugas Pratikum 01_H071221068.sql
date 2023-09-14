@@ -1,5 +1,6 @@
 -- Bagian 1 (Database Library)
- 
+
+-- NOMOR 1
 CREATE DATABASE library;
 
 USE library;
@@ -16,19 +17,23 @@ CREATE TABLE books(
 ALTER TABLE books
 MODIFY id INT AUTO_INCREMENT;
 
+-- NOMOR 2
 ALTER TABLE books
 MODIFY isbn CHAR(13);
 
+-- NOMOR 3
 ALTER TABLE books
 DROP summary;
 
 ALTER TABLE books
 ADD summary TEXT;
 
+-- NOMOR 4
 DESCRIBE books;
 
--- NOMOR 2 (Database db_pratikum)
+-- Bagian 2 (Database db_pratikum)
 
+-- NOMOR 5
 CREATE DATABASE db_pratikum;
 
 USE db_pratikum;
